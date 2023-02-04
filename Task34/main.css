@@ -1,0 +1,51 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+p {
+  font-size: 25px;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+/* ---------------- */
+
+/* Задание №1 */
+.success {
+  color: green;
+}
+.error {
+  color: red;
+}
+.large {
+  font-size: 30px;
+}
+.small {
+  font-size: 20px;
+}
+
+/* Задание №2 */
+.color {
+  color: aqua;
+}
+.size {
+  font-size: 30px;
+}
+.font {
+  font-family: fantasy;
+}
