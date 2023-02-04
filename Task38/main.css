@@ -1,0 +1,101 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+p {
+  font-size: 25px;
+  display: block;
+  width: 50%;
+  color: grey;
+}
+/* ---------------- */
+
+/* Задание №1 */
+.bbb.zzz {
+  color: red;
+}
+
+/* Задание №2 */
+h2.bbb.zzz {
+  color: red;
+}
+
+/* Задание №3 */
+#elem.bbb {
+  color: red;
+}
+
+/* Задание №4 */
+#elem.bbb.zzz {
+  color: red;
+}
+
+/* Задание №5 */
+h2#elem.bbb {
+  color: red;
+}
+
+/* Задание №6 */
+h2.zzz {
+  color: red;
+}
+
+/* Задание №7 */
+h2 .zzz {
+  color: red;
+}
+
+/* Задание №8 */
+.bbb.zzz {
+  color: red;
+}
+
+/* Задание №9 */
+.bbb .zzz {
+  color: red;
+}
+
+/* Задание №10*/
+.bbb.zzz.xxx {
+  color: red;
+}
+
+/* Задание №11 */
+.bbb .zzz.xxx {
+  color: red;
+}
+
+/* Задание №12 */
+.bbb.zzz .xxx {
+  color: red;
+}
+
+/* Задание №13 */
+.bbb .zzz .xxx {
+  color: red;
+}
+
+/* Задание №14 */
+#elem.bbb {
+  color: red;
+}
+
+/* Задание №15 */
+#elem .bbb {
+  color: red;
+}
