@@ -1,0 +1,86 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+p {
+  font-size: 25px;
+  display: block;
+  width: 50%;
+}
+/* ---------------- */
+
+/* Уже упрощенный код */
+
+/* Задание №1 */
+#block h1,
+#block h2 {
+  text-align: center;
+}
+
+/* Задание №2 */
+#block h1,
+#block h2 {
+  text-align: center;
+}
+
+#block h1 {
+  font-size: 30px;
+}
+#block h2 {
+  font-size: 20px;
+}
+
+/* Задание №3 */
+#block h1,
+#block h2,
+#block h3 {
+  text-align: center;
+}
+#block h2 {
+  color: blue;
+}
+#block h3 {
+  font-size: 16px;
+  color: red;
+}
+
+/* Задание №4 */
+#block h1.eee,
+#block h2.zzz {
+  text-align: center;
+}
+#block h1.eee {
+  font-size: 30px;
+}
+#block h2.zzz {
+  font-size: 20px;
+}
+
+/* Задание №5 */
+.xxx .kkk,
+.eee h2.zzz,
+#eee h2 {
+  text-align: center;
+  color: gray;
+}
+
+/* Задание №6 */
+.eee h2.zzz,
+.xxx {
+  text-align: center;
+  color: gray;
+}
