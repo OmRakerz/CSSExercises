@@ -1,0 +1,119 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+p {
+  font-size: 25px;
+  display: block;
+  width: 50%;
+  color: grey;
+}
+/* ---------------- */
+
+h2 {
+  color: darkgoldenrod;
+}
+
+/* Задание №1 */
+.div1 p {
+  color: #4682b4;
+}
+
+/* Задание №2 */
+.div2 h2 {
+  color: #4682b4;
+}
+
+/* Задание №3 */
+#block1 p {
+  color: #4682b4;
+}
+
+/* Задание №4 */
+#block2 h2 {
+  color: #4682b4;
+}
+
+/* Задание №5 */
+.block3 .bbb,
+.bbb.block3 {
+  color: #4682b4;
+}
+
+/* Задание №6 */
+#block4 .bbb {
+  color: #4682b4;
+}
+
+/* Задание №7 */
+.block5 p.bbb {
+  color: #4682b4;
+}
+
+/* Задание №8 */
+.block6 h2.bbb {
+  color: #4682b4;
+}
+
+/* Задание №9 */
+#block7 p.bbb {
+  color: #4682b4;
+}
+
+/* Задание №10 */
+.block8 .bbb,
+.block8 .xxx {
+  color: #4682b4;
+}
+
+/* Задание №11 */
+.block9 p.bbb,
+.block9 h2.xxx {
+  color: #4682b4;
+}
+
+/* Задание №12 */
+#block10 p.bbb,
+#block10 p.xxx {
+  color: #4682b4;
+}
+
+/* Задание №13 */
+.block11 .fff {
+  color: #4682b4;
+}
+
+/* Задание №14 */
+.block12 .fff p {
+  color: #4682b4;
+}
+
+/* Задание №15 */
+.block13 p.fff {
+  color: #4682b4;
+}
+
+/* Задание №16 */
+.block14 .fff .bbb {
+  color: #4682b4;
+}
+
+/* Задание №17 */
+.fff h2.bbb {
+  color: #4682b4;
+}
