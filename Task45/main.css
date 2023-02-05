@@ -1,0 +1,60 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+p {
+  font-size: 25px;
+  color: grey;
+}
+/* ---------------- */
+
+/* Задание №1 */
+.elem [title] {
+  color: #4682b4;
+}
+
+/* Задание №2 */
+.p1 p[title] {
+  color: #4682b4;
+}
+
+/* Задание №3 */
+.p2 [title="привет"] {
+  color: #4682b4;
+}
+
+/* Задание №4 */
+.a1 [href^='http://']
+{
+  color: #4682b4;
+}
+
+/* Задание №5 */
+.a2 [href$=".html"] {
+  color: #4682b4;
+}
+
+/* Задание №6 */
+.p3 [title*="привет"] {
+  color: #4682b4;
+}
+
+/* Задание №7 */
+p[class|="top"] {
+  color: #4682b4;
+}
