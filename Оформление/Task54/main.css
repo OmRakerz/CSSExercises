@@ -1,0 +1,54 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #d3d3d3;
+}
+p {
+  font-size: 30px;
+  display: block;
+  width: 80%;
+  color: #f0fff0;
+}
+/* ---------------- */
+
+/* Задание №1 */
+.elem1 {
+  width: 300px;
+  height: 200px;
+  border: 3px solid; /* толщина, solid - сплошная линия */
+  border-left-color: #ff8c00; /* левая граница */
+  border-top-color: blue; /* верхняя граница */
+  border-right-color: green; /* правая граница */
+  border-bottom-color: red; /* нижняя граница */
+  margin: 20px;
+}
+
+/* Задание №2 */
+.elem2 {
+  width: 300px;
+  height: 200px;
+  border-left: 3px solid red; /* левая граница */
+  border-top: 2px solid blue; /* верхняя граница */
+  border-right: 3px dotted green; /* правая граница */
+  border-bottom: 2px solid blue; /* нижняя граница */
+  margin: 20px;
+}
