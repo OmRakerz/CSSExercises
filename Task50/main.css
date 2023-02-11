@@ -1,0 +1,52 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #d3d3d3;
+}
+p {
+  font-size: 30px;
+  display: block;
+  width: 80%;
+  color: #4682b4;
+}
+/* ---------------- */
+li {
+  font-size: 20px;
+  color: #4682b4;
+}
+/* Задание №1 */
+
+/* Псевдокласс not задает отрицание, к примеру, p:not(.last) означает выбрать все абзацы, у которых нет класса last. Вложенные not не работают. */
+
+.ul1 li:not(.elem) {
+  color: red;
+}
+
+/* Задание №2 */
+.ul2 li:not(:first-child) {
+  color: aqua;
+}
+
+/* Задание №3 */
+.ul3 li:not(:first-child, :last-child) {
+  color: #ff8c00;
+}
