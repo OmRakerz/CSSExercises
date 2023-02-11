@@ -1,0 +1,107 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #d3d3d3;
+}
+p {
+  font-size: 20px;
+  display: block;
+  width: 80%;
+  color: grey;
+}
+/* ---------------- */
+
+li {
+  font-size: 20px;
+  color: #4682b4;
+}
+
+/* Задание №1 */
+/* Псевдокласс first-child выбирает элемент, который является первым потомком родителя. */
+.ul1 .li1:first-child {
+  color: red;
+}
+
+/* Задание №2 */
+/* Псевдокласс last-child выбирает элемент, который является последним потомком родителя. */
+.ul2 .li2:last-child {
+  color: green;
+}
+
+/* Задание №3 */
+.ul3 .li3:first-child {
+  color: red;
+}
+
+.ul3 .li3:last-child {
+  color: green;
+}
+
+/* Задание №4 */
+/* Псевдокласс nth-child выбирает элемент, который является n-ным потомком родителя, в нашем случае 3-им внутри ul */
+.ul4 .li4:nth-child(3) {
+  color: red;
+}
+
+/* Задание №5 */
+/* Сейчас зеленым выделим все четные (even),
+    а нечетные красным(odd)*/
+.ul5 .li5:nth-child(odd) {
+  color: red;
+}
+
+.ul5 .li5:nth-child(even) {
+  color: green;
+}
+
+/* Задание №6 */
+/* Сейчас красными сделаем каждую третью li (начиная с третьей): */
+.ul6 .li6:nth-child(3n) {
+  color: red;
+}
+
+/* Задание №7 */
+/* Псевдокласс nth-last-child выбирает элемент, который является n-ным потомком родителя, отсчитывая с конца. Ведет себя аналогично nth-child, только отсчет ведется с конца!!! */
+/* Cделаем красного цвета тот li, который является 2-тым с конца потомком своего родителя (4-тым внутри ul): */
+.ul7 .li7:nth-last-child(2) {
+  color: red;
+}
+
+/* Задание №8 */
+/* Псевдокласс only-child выбирает элемент, который является единственным потомком родителя. */
+.ul8 .li8:only-child {
+  color: red;
+}
+
+/* Задание №9 */
+/* Псевдокласс empty задает то, как будет выглядеть пустой элемент (не содержащий текста) 
+    как прямоугольник в рамке :) */
+
+.ul9 .li9 {
+  border: 1px solid red;
+  width: 100px;
+  margin: 10px;
+}
+
+.ul9 .li9:empty {
+  border: 1px solid blue;
+}
