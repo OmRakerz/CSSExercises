@@ -1,0 +1,71 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #d3d3d3;
+}
+p {
+  font-size: 30px;
+  display: block;
+  width: 80%;
+  color: #f0fff0;
+}
+/* ---------------- */
+
+/* Задание №1 */
+.elem1 {
+  border-width: 5px; /* толщина 5px */
+  border-style: solid; /* в виде линии */
+  border-color: blue; /* синий цвет */
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+}
+
+/* Задание №2 */
+.elem2 {
+  border-width: 5px; /* толщина 5px */
+  border-style: dotted; /* dotted - линия в виде точекава */
+  border-color: red; /* красный цвет */
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+}
+
+/* Задание №3 */
+.elem3 {
+  border-width: 2px; /* толщина 2px */
+  border-style: dashed; /* dashed - линия в виде тире */
+  border-color: #ff8c00; /* темно-оранжевый цвет */
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+}
+
+/* Задание №4 */
+.elem4 {
+  border-width: 10px;
+  border-style: double; /* double - двойная линия */
+  border-color: blue;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+}
