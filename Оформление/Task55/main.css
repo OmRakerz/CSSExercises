@@ -1,0 +1,62 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin: 20px;
+  color: #d3d3d3;
+}
+p {
+  font-size: 30px;
+  display: block;
+  width: 80%;
+  color: #f0fff0;
+}
+/* ---------------- */
+
+/* Задание №1 */
+.elem1 {
+  width: 200px;
+  height: 200px;
+  border: 2px solid green;
+  border-radius: 30px; /* скруглили уголки блоку, задав ему скругление в 30px */
+  margin: 20px;
+  margin-left: 33px;
+}
+
+/* Задание №2 */
+.elem2 {
+  width: 200px;
+  height: 200px;
+  background-color: #00fa9a;
+  border-radius: 30px; /* скруглили уголки фону, задав ему скругление в 30px */
+  margin: 20px;
+  margin-left: 33px;
+}
+
+/* Задание №3 */
+.elem3 {
+  width: 200px;
+  height: 200px;
+  border: 2px solid green;
+  border-radius: 100px; /* сделали круг, задав ему скругление в 100px */
+  margin: 20px;
+  margin-left: 33px;
+}
