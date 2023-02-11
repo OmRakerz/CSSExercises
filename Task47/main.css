@@ -1,0 +1,72 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+p {
+  font-size: 25px;
+  display: block;
+  width: 80%;
+  color: #b8860b;
+}
+/* ---------------- */
+
+/* Задание №1 */
+a {
+  color: red;
+  font-size: 20px;
+}
+a:hover {
+  text-decoration: none;
+}
+/* ↑ Выбирает все ссылки и окрашивает их в красный цвет, а также становится
+      неподчеркнутой, если навести на неё мышкой */
+
+/* Задание №2 */
+a.zzz {
+  color: red;
+}
+a.zzz:hover {
+  text-decoration: none;
+}
+/*
+    ↑ Выбирает все ссылки с классом zzz и окрашивает их в красный цвет, 
+    а также выбирает все ссылки с классом zzz и убирает подчеркивание, 
+    если навести на неё мышкой
+     */
+
+/* Задание №3 */
+#block a.zzz {
+  color: red;
+}
+#block a.zzz:hover {
+  text-decoration: none;
+}
+/* 
+    ↑ Делает всё вышеописанное ранее, только выбирает все ссылки с классом zzz,
+    которые находятся внутри блока с id равным "block" */
+
+/* Задание №4 */
+.block a.zzz {
+  color: red;
+}
+.block a.zzz:hover {
+  text-decoration: none;
+}
+
+/* 
+    ↑ Делает всё вышеописанное ранее, только выбирает все ссылки с классом zzz,
+    которые находятся внутри блока, у которого значение класса равно block */
