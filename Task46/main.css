@@ -1,0 +1,57 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+p {
+  font-size: 25px;
+  display: block;
+  width: 50%;
+  color: grey;
+}
+/* ---------------- */
+a {
+  font-size: 20px;
+}
+
+/* Задание №1 */
+.a1:link {
+  color: #00bfff;
+}
+
+.a1:visited {
+  color: green;
+}
+
+.a1:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.a1:active {
+  color: black;
+}
+
+/* Задание №2 */
+.a2 {
+  color: #00bfff;
+  text-decoration: none;
+}
+.a2:hover {
+  color: red;
+  text-decoration: underline;
+}
