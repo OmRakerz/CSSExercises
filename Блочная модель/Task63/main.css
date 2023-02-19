@@ -1,0 +1,103 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin: 20px;
+  color: #1e90ff;
+}
+p {
+  font-size: 30px;
+  display: block;
+  width: 80%;
+  color: #f0fff0;
+}
+/* ---------------- */
+
+/* Задание №1 */
+#parent1 {
+  width: 200px;
+  border: 1px solid orange;
+  margin: 20px;
+}
+
+#child1 {
+  height: 60px;
+  border: 1px dashed #00bfff;
+  margin: 25px 50px 140px 15px; /* верх-право-низ-лево */
+}
+
+/* Задание №2 */
+#parent2 {
+  width: 200px;
+  border: 1px solid orange;
+  margin: 20px;
+}
+
+#child2 {
+  height: 60px;
+  border: 1px dashed #00bfff;
+  margin: 100px 50px;
+  /* первое знач. будет задавать отступ одновременно сверху и снизу, 
+        а второе - одновременно и справа, и слева. */
+}
+
+/* Задание №3 */
+#parent3 {
+  width: 200px;
+  border: 1px solid orange;
+  margin: 20px;
+}
+
+#child3 {
+  height: 50px;
+  border: 1px dashed #00bfff;
+  margin: 25px 50px;
+  /* первое знач. будет задавать отступ одновременно сверху и снизу, 
+        а второе - одновременно и справа, и слева. */
+}
+
+/* Задание №4 */
+#parent4 {
+  width: 200px;
+  border: 1px solid orange;
+  margin: 20px;
+}
+
+#child4 {
+  height: 50px;
+  border: 1px dashed #00bfff;
+  margin: 100px 50px 30px;
+  /* первое будет задавать отступ сверху, 
+        второе - одновременно отступ слева и справа, 
+           а третье - отступ снизу.*/
+}
+
+/* Задание №5 */
+#parent5 {
+  width: 400px;
+  border: 1px solid orange;
+  margin: 20px;
+}
+
+#child5 {
+  height: 50px;
+  border: 1px dashed #00bfff;
+  margin: 35px 75px 65px;
+}
