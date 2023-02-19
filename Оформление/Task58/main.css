@@ -1,0 +1,116 @@
+/* Стиль упражнений */
+/* body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/background1.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    background-attachment: fixed;
+  } */
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: black;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin: 20px;
+  color: black;
+}
+p {
+  font-size: 30px;
+  display: block;
+  width: 80%;
+  color: black;
+}
+/* ---------------- */
+
+/* Задание №1 */
+
+/* body {
+  width: 800px;
+  height: 400px;
+  background-image: url("../bg.png"); /* задает фоновую картинку элементу 
+  background-attachment: fixed;
+}
+*/
+
+/* Задание №2 */
+.elem2 {
+  background-repeat: repeat-y; /* фоновая картинка будет повторяться по оси Y */
+  width: 800px;
+  height: 400px;
+  background-image: url("../bg.png");
+  margin: 0;
+}
+
+/* Задание №3 */
+.elem3 {
+  background-repeat: repeat-x; /* фоновая картинка будет повторяться по оси X */
+  width: 800px;
+  height: 400px;
+  background-image: url("../bg.png");
+  margin: 0;
+}
+
+/* Задание №4 */
+.elem4 {
+  background-position: 20px center; /* разместили фоновую картинку на расстоянии 20px слева и по центру по вертикали */
+  background-image: url("../bg.png");
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 300px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.elem5 {
+  background-size: cover;
+  /* Масштабирует картинку так, чтобы она накрыла собой весь блок с сохранением пропорций. Картинка будет стараться поместиться целиком, но это не всегда будет получаться, поэтому какая-то ее часть будет обрезаться. Блок всегда будет покрыт картинкой целиком. */
+  background-repeat: no-repeat;
+  background-image: url("../bg.png");
+  border: 1px solid black;
+  margin-bottom: 20px;
+  width: 700px;
+  height: 300px;
+}
+
+.elem6 {
+  background-attachment: fixed; /* Картинка фона будет неподвижной, а текст будет скользить по ней. */
+  background-image: url("../bg.png");
+  margin-bottom: 20px;
+  border: 1px solid black;
+  width: 700px;
+  height: 300px;
+}
+
+.elem7 {
+  background-clip: content-box; /* Фон отображается только внутри контента. */
+  background-image: url("../bg.png");
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  padding: 30px;
+  width: 700px;
+  height: 300px;
+}
+
+.elem8 {
+  background-origin: border-box; /* Фоновая картинка залезет под границу */
+  background-image: url("../bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 10px dashed black;
+  padding: 30px;
+  width: 700px;
+  height: 300px;
+}
+
+.elem9 {
+  background: none; /* отсутствует фон */
+}
