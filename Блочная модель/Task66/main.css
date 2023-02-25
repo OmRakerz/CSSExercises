@@ -1,0 +1,58 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+  margin-left: 20px;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin: 20px;
+  color: #1e90ff;
+}
+p {
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  color: #f0fff0;
+}
+/* ---------------- */
+
+/* Задание №1 */
+.elem1 {
+  width: 300px;
+  border: 1px solid red;
+  text-align: justify;
+  padding: 10px 20px 30px 40px; /* верх-право-низ-лево */
+}
+
+/* Задание №2 */
+.elem2 {
+  width: 300px;
+  border: 1px solid red;
+  padding: 60px 30px; /* первое будет задавать отступ одновременно сверху и снизу, а второе - одновременно и справа, и слева. */
+  text-align: justify;
+}
+
+/* Задание №3 */
+.elem3 {
+  width: 300px;
+  border: 1px solid red;
+  padding: 10px 20px 40px; /* первое будет задавать отступ сверху, 
+  второе - одновременно отступ слева и справа, 
+     а третье - отступ снизу.*/
+  text-align: justify;
+}
