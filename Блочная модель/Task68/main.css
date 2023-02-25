@@ -1,0 +1,66 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+  margin-left: 40px;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin: 20px;
+  color: #e0ffff;
+}
+p {
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  color: whitesmoke;
+}
+/* ---------------- */
+
+.elem1 {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #1e90ff;
+  margin-bottom: 20px;
+}
+
+.elem2 {
+  height: 100px;
+  /* Если у блочного элемента не задана ширина, то он автоматически займет по ширине все доступное пространство */
+  border: 3px solid #1e90ff;
+  margin-bottom: 20px;
+}
+
+.elem3 {
+  width: 100px;
+  /* Если у блочного элемента не задана высота, то его высота сформируется содержимым */
+  border: 3px solid #1e90ff;
+  margin-bottom: 20px;
+}
+
+.elem4 {
+  width: 100px;
+  /* Если содержимого нет, то мы увидим слипшуюся границу */
+  border: 3px solid #1e90ff;
+  margin-bottom: 20px;
+}
+
+.elem5 {
+  width: 100px;
+  border: 3px solid #1e90ff;
+  margin-bottom: 20px;
+}
