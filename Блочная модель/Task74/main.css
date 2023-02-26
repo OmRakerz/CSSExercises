@@ -1,0 +1,57 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin: 20px;
+  color: #d3d3d3;
+}
+p {
+  font-size: 25px;
+  display: block;
+  width: 95%;
+  color: #f0fff0;
+  text-align: center;
+}
+/* ---------------- */
+a {
+  font-size: 25px;
+  color: #f0fff0;
+}
+/* Задание №1 */
+.parent1 {
+  padding: 10px 0; /* сверху и снизу отступ 10px, а слева и справа отступ 20px */
+  border: 2px solid #4682b4;
+  text-align: center;
+}
+
+/* Задание №2 */
+.parent2 {
+  padding: 10px 0; /* сверху и снизу отступ 10px, а слева и справа отступ 20px */
+  border: 2px solid #4682b4;
+  text-align: right;
+}
+
+/* Задание №3 */
+.parent3 {
+  padding: 10px 0; /* сверху и снизу отступ 10px, а слева и справа отступ 20px */
+  padding-right: 10px;
+  border: 2px solid #4682b4;
+  text-align: right;
+}
