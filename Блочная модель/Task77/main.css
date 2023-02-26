@@ -1,0 +1,98 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin: 20px;
+  color: #4682b4;
+}
+p {
+  font-size: 25px;
+  display: block;
+  width: 90%;
+  color: #f0fff0;
+  margin-left: 20px;
+}
+/* ---------------- */
+a {
+  font-size: 25px;
+  color: #f0fff0;
+}
+/* Задание №1 */
+
+.parent1 {
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.child1 {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+}
+
+/* Задание №2 */
+.parent2 {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  height: 200px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.child2 {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+}
+
+/* Задание №3 */
+
+.parent3 {
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  height: 200px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.child3 {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+}
+
+/* Задание №4 */
+
+.parent4 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 900px;
+  height: 200px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.child4 {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+}
