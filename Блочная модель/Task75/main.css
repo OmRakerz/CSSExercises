@@ -1,0 +1,113 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin: 20px;
+  color: #d3d3d3;
+}
+p {
+  font-size: 25px;
+  display: block;
+  width: 100%;
+  color: #f0fff0;
+  text-align: center;
+}
+/* ---------------- */
+a {
+  font-size: 25px;
+  color: #f0fff0;
+}
+/* Задание №1 */
+.parent1 {
+  padding: 10px 0;
+  border: 2px solid #4682b4;
+  text-align: center;
+}
+.child1 {
+  display: inline-block;
+  margin: 0px 5px;
+  padding: 10px;
+  border: 2px solid #2e8b57;
+}
+
+/* Задание №2 */
+.parent2 {
+  padding: 10px 0;
+  border: 2px solid #4682b4;
+  text-align: right;
+}
+.child2 {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #2e8b57;
+}
+
+/* Задание №3 */
+.parent3 {
+  padding: 10px 0;
+  padding-right: 20px;
+  border: 2px solid #4682b4;
+  text-align: right;
+}
+.child3 {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #2e8b57;
+}
+
+/* Задание №4 */
+.parent4 {
+  padding: 10px 0;
+  border: 2px solid #4682b4;
+  text-align: right;
+}
+.child4 {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px;
+  border: 2px solid #2e8b57;
+}
+
+/* Задание №5 */
+.parent5 {
+  padding: 10px 0;
+  border: 2px solid #4682b4;
+  text-align: right;
+}
+.child5 {
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  border: 2px solid #2e8b57;
+}
+
+/* Задание №6 */
+.parent6 {
+  padding: 10px 0;
+  border: 2px solid #4682b4;
+  text-align: right;
+}
+.child6 {
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #2e8b57;
+}
