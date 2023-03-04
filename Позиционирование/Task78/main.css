@@ -1,0 +1,140 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 160px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin: 20px;
+  color: #4682b4;
+}
+p {
+  font-size: 25px;
+  display: block;
+  width: 90%;
+  color: #f0fff0;
+  margin-left: 20px;
+}
+/* ---------------- */
+a {
+  font-size: 25px;
+  color: #f0fff0;
+}
+/* Задание №1 */
+.elem11 {
+  width: 50px;
+  height: 50px;
+  position: absolute; /* сделали элемент абсолютно спозиционированным */
+  border: 1px solid red;
+  left: 60px; /*  отступ слева */
+  top: 60px; /*  отступ сверху */
+}
+.elem12 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border: 1px solid blue;
+  left: 130px;
+  top: 130px;
+}
+.elem13 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border: 1px solid green;
+  left: 200px;
+  top: 200px;
+}
+
+/* Задание №2 */
+.elem21 {
+  width: 50px;
+  height: 50px;
+  top: 350px;
+  position: absolute;
+  border: 1px solid red;
+  left: 30px;
+}
+.elem22 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 350px;
+  border: 1px solid blue;
+  left: 100px;
+}
+.elem23 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 350px;
+  border: 1px solid green;
+  left: 170px;
+}
+
+/* Задание №3 */
+.elem31 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border: 1px solid red;
+  left: 30px;
+  top: 560px;
+}
+.elem32 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border: 1px solid blue;
+  left: 60px;
+  top: 590px;
+}
+.elem33 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border: 1px solid green;
+  left: 90px;
+  top: 620px;
+}
+
+/* Задание №4 */
+.elem41 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #ff8888;
+  left: 30px;
+  top: 810px;
+}
+.elem42 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #7e89eb;
+  left: 60px;
+  top: 840px;
+}
+.elem43 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #4dee99;
+  left: 90px;
+  top: 870px;
+}
