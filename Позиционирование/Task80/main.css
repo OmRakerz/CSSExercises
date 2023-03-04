@@ -1,0 +1,231 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin: 20px;
+  color: #4682b4;
+}
+p {
+  font-size: 25px;
+  display: block;
+  width: 90%;
+  color: #f0fff0;
+  margin-left: 20px;
+}
+/* ---------------- */
+a {
+  font-size: 25px;
+  color: #f0fff0;
+}
+/* Задание №1 */
+
+/*  Если элементу задан relative, а его потомку - absolute, то этот потомок будет позиционироваться относительно своего родителя, а не относительно окна браузера. 
+
+    Как правило, в таком случае родителю указывают relative без смещений. В этом случае с этим родителем ничего не происходит, но все его потомки теперь будут позиционироваться относительно него.
+*/
+
+.parent1 {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid green;
+}
+.child1 {
+  border: 1px solid red;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+/* Задание №2 */
+.parent2 {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #4dee99;
+}
+
+.child21 {
+  background-color: #fff;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  width: 100px;
+  height: 100px;
+}
+.child22 {
+  background-color: #fff;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+/* Задание №3 */
+.parent3 {
+  position: relative;
+  width: 200px;
+  height: 430px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.child31 {
+  border: 1px solid black;
+  background-color: red;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.child32 {
+  background-color: yellow;
+  border: 1px solid black;
+  position: absolute;
+  left: 50px;
+  top: 160px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.child33 {
+  border: 1px solid black;
+  background-color: green;
+  position: absolute;
+  left: 50px;
+  top: 270px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+/* Задание №4 */
+
+.smile1 {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #4dee99;
+  border-radius: 250px;
+}
+.eye11 {
+  background-color: #fff;
+  position: absolute;
+  right: 100px;
+  top: 70px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.eye12 {
+  background-color: #fff;
+  position: absolute;
+  left: 100px;
+  top: 70px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.noise11 {
+  background-color: #fff;
+  position: absolute;
+  left: 215px;
+  top: 200px;
+  width: 70px;
+  height: 70px;
+}
+.mouth11 {
+  background-color: #fff;
+  position: absolute;
+  left: 150px;
+  top: 350px;
+  width: 200px;
+  height: 20px;
+}
+
+/* Задание №5 */
+#smile2 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #c4cd14;
+  border-radius: 200px;
+}
+
+.eye21 {
+  background-color: #fff;
+  position: absolute;
+  right: 80px;
+  top: 70px;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  z-index: 3;
+}
+.eye22 {
+  background-color: #fff;
+  position: absolute;
+  left: 80px;
+  top: 70px;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  z-index: 3;
+}
+.noise21 {
+  background-color: #fff;
+  position: absolute;
+  left: 165px;
+  top: 200px;
+  width: 70px;
+  height: 70px;
+  z-index: 3;
+  border-radius: 35px;
+}
+.mouth21 {
+  background-color: #fff;
+  position: absolute;
+  left: 100px;
+  top: 155px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  z-index: 1;
+}
+.mouth22 {
+  background-color: #c4cd14;
+  position: absolute;
+  left: 50px;
+  top: 30px;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  z-index: 2;
+}
