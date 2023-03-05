@@ -1,0 +1,119 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 20px;
+  width: 80%;
+  color: #4682b4;
+}
+p {
+  font-size: 25px;
+  width: 90%;
+  color: white;
+}
+/* ---------------- */
+a {
+  font-size: 25px;
+  color: #f0fff0;
+}
+/* Задание №1 */
+
+/* На самом деле указания координат при абсолютном позиционировании не обязательно. 
+    Если элементу просто написать position в значении absolute, то он станет абсолютно спозиционированным, но останется стоять в том же месте, где и стоял. При этом все остальные элементы будут вести себя так, будто нашего элемента нет и могут налезть на него.
+ */
+
+#elem11 {
+  width: 200px;
+  height: 150px;
+  border: 1px solid red;
+}
+#elem12 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  border: 1px solid green;
+}
+#elem13 {
+  width: 50px;
+  height: 150px;
+  border: 1px solid blue;
+}
+
+/* Задание №2 */
+#elem21 {
+  width: 200px;
+  height: 150px;
+  border: 1px solid red;
+}
+#elem22 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  border: 1px solid green;
+}
+#elem23 {
+  width: 50px;
+  height: 150px;
+  border: 1px solid blue;
+}
+
+/* Задание №3 */
+#elem31 {
+  width: 200px;
+  height: 150px;
+  border: 1px solid red;
+}
+#elem32 {
+  position: absolute;
+  left: 40px; /* добавляем позицию по горизонтали */
+
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  border: 1px solid green;
+}
+#elem33 {
+  width: 50px;
+  height: 150px;
+  border: 1px solid blue;
+}
+
+/* Задание №4 */
+#elem41 {
+  width: 200px;
+  height: 150px;
+  border: 1px solid red;
+}
+#elem42 {
+  position: absolute;
+  top: 2370px; /* добавляем позицию по вертикали */
+
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  border: 1px solid green;
+}
+#elem43 {
+  width: 50px;
+  height: 150px;
+  border: 1px solid blue;
+}
