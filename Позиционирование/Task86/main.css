@@ -1,0 +1,125 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+  margin: 0 auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 20px;
+  width: 80%;
+  color: #4682b4;
+}
+p {
+  font-size: 20px;
+  width: 100%;
+  color: white;
+}
+/* ---------------- */
+a {
+  font-size: 25px;
+  color: #f0fff0;
+}
+/* Задание №1 */
+/* Выше будет тот элемент, у которого значение z-index больше */
+
+/* Свойство z-index: работает только для элементов, у которых 
+    значение position задано как absolute, fixed или relative. */
+.elem11 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #ff8888;
+  left: 30px;
+  top: 120px;
+}
+.elem12 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #7e89eb;
+  left: 60px;
+  top: 150px;
+  z-index: 1;
+}
+.elem13 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #4dee99;
+  left: 90px;
+  top: 180px;
+}
+
+/* Задание №2 */
+.elem21 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #ff8888;
+  left: 30px;
+  top: 290px;
+  z-index: 3;
+}
+.elem22 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #7e89eb;
+  left: 60px;
+  top: 320px;
+  z-index: 2;
+}
+.elem23 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #4dee99;
+  left: 90px;
+  top: 350px;
+  z-index: 1;
+}
+
+/* Задание №3 */
+/* Если z-index у элемента не задан, то его значение следует трактовать как 0. 
+        Это значит, что элемент со значением z-index, равным -1, будет ниже элемента без z-index. */
+
+.elem31 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #ff8888;
+  left: 30px;
+  top: 500px;
+}
+.elem32 {
+  z-index: -1;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #7e89eb;
+  left: 60px;
+  top: 530px;
+}
+.elem33 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #4dee99;
+  left: 90px;
+  top: 560px;
+}
