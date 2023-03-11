@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сочетание float и margin</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <h1>Сочетание float и padding</h1>
+
+    <h3>
+      Давайте опять поставим картинку над абзацами, оставив им при этом левый
+      <i>padding</i>. В этом случае padding отодвинет только тот текст, который
+      прилегает слева к диву-родителю, а не к нашей картинке:
+    </h3>
+
+    <!-- Пример №1 -->
+    <div class="box">
+      <img src="../images/task87.2.jpg" alt="img2" height="200px" />
+      <p class="ex1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, corrupti
+        magnam quis perferendis beatae et?
+      </p>
+      <p class="ex1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi est
+        adipisci natus repellat hic praesentium ut dolorum accusamus, blanditiis
+        omnis corporis laborum enim eaque totam expedita aut, officia quasi
+        rerum accusantium numquam placeat facere ad aliquid. Ut aspernatur
+        temporibus doloribus adipisci autem odit libero ab commodi fugiat, illum
+        illo iure!
+      </p>
+    </div>
+
+    <br />
+    <br />
+
+    <h3>
+      А теперь положим картинку в первый абзац - она будет двигаться вправо
+      вместе с текстом абзацев:
+    </h3>
+
+    <!-- Пример №2 -->
+    <div class="box">
+      <p class="ex1">
+        <img src="../images/task87.2.jpg" alt="img2" height="200px" />
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, corrupti
+        magnam quis perferendis beatae et?
+      </p>
+      <p class="ex1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi est
+        adipisci natus repellat hic praesentium ut dolorum accusamus, blanditiis
+        omnis corporis laborum enim eaque totam expedita aut, officia quasi
+        rerum accusantium numquam placeat facere ad aliquid. Ut aspernatur
+        temporibus doloribus adipisci autem odit libero ab commodi fugiat, illum
+        illo iure!
+      </p>
+    </div>
+
+    <h1>Отступы самой картинке</h1>
+
+    <h3>
+      Давайте добавим правый margin - в этом случае текст действительно
+      отодвинется от правого края картинки:
+    </h3>
+
+    <!-- Пример №3 -->
+    <div class="box">
+      <img class="ex2" src="../images/task87.2.jpg" alt="img2" height="200px" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, corrupti
+        magnam quis perferendis beatae et?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi est
+        adipisci natus repellat hic praesentium ut dolorum accusamus, blanditiis
+        omnis corporis laborum enim eaque totam expedita aut, officia quasi
+        rerum accusantium numquam placeat facere ad aliquid. Ut aspernatur
+        temporibus doloribus adipisci autem odit libero ab commodi fugiat, illum
+        illo iure!
+      </p>
+    </div>
+
+    <br />
+    <br />
+
+    <h3>
+      Интересный эффект получится, если добавить еще и <i>margin</i> абзацам -
+      сами абзацы отодвинутся от левого края дива-родителя, при этом текст в них
+      по-прежнему будет отодвинут от правого края картинки, так как ей задан
+      правый <i>margin</i>:
+    </h3>
+
+    <div class="box">
+      <img class="ex2" src="../images/task87.2.jpg" alt="img2" height="200px" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, corrupti
+        magnam quis perferendis beatae et?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi est
+        adipisci natus repellat hic praesentium ut dolorum accusamus, blanditiis
+        omnis corporis laborum enim eaque totam expedita aut, officia quasi
+        rerum accusantium numquam placeat facere ad aliquid. Ut aspernatur
+        temporibus doloribus adipisci autem odit libero ab commodi fugiat, illum
+        illo iure!
+      </p>
+    </div>
+  </body>
+</html>
