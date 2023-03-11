@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Действие флоатов на родителя</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <h1>Действие флоатов на родителя</h1>
+
+    <h3>
+      Давайте установим картинке свойство <i>float</i> в значении <i>left</i>. В
+      этом случае произойдет удивительная вещь - высота родителя исчезнет, его
+      нижняя граница будет начинаться сразу после верхней, а картинка вылезет
+      снизу за своего родителя:
+    </h3>
+    <!-- Пример №1 -->
+    <div class="box">
+      <img class="eg1" src="../images/task87.2.jpg" alt="" height="200px" />
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <h3>
+      Получается, что элементы, которым задано свойство <i>float</i>,
+      <i>не расширяют своего родителя по высоте</i>.
+    </h3>
+    <br />
+    <br />
+
+    <h3>
+      Давайте свойству <i>float</i> вместо <i>left</i> напишем значение
+      <i>right</i>. Поведение родителя не изменится, но картинка начнет плавать
+      справа:
+    </h3>
+
+    <!-- Пример №2 -->
+    <div class="box">
+      <img class="eg2" src="../images/task87.2.jpg" alt="" height="200px" />
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <h1>Зададим высоту</h1>
+    <h3>
+      Хотя плавающие элементы не расширяют своего родителя по высоте, мы можем
+      сами задать ему высоту с помощью свойства <i>height</i>.
+    </h3>
+
+    <!-- Пример №3 -->
+    <div class="box3">
+      <img class="eg2" src="../images/task87.2.jpg" alt="" height="200px" />
+    </div>
+
+    <br /><br /><br /><br />
+
+    <h1>С текстом</h1>
+    <h3>
+      В этом случае высота нашего дива будет равна высоте текста, а картинка
+      по-прежнему вылезет за див:
+    </h3>
+    <h3>Если поставить текст после картинки - результат не изменится.</h3>
+
+    <!-- Пример №4 -->
+    <div class="box">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum nobis
+      excepturi, velit quos nam numquam!
+
+      <img class="eg2" src="../images/task87.2.jpg" alt="" height="200px" />
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <h3>Если снизу добавим еще один див - картинка налезет и на него:</h3>
+    <!-- Пример №5 -->
+    <div class="box">
+      <img class="eg1" src="../images/task87.2.jpg" alt="" height="200px" />
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum nobis
+      excepturi, velit quos nam numquam!
+    </div>
+    <div class="box">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, nesciunt?
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <h3>
+      Если же в первый див добавить настолько много текста, что по высоте он
+      будет больше картинки - она не будет налезать на второй див:
+    </h3>
+
+    <!-- Пример №6 -->
+    <div class="box">
+      <img class="eg1" src="../images/task87.2.jpg" alt="" height="100px" />
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quidem
+      nihil nulla odio deserunt quam, aut consectetur? Ipsa et soluta debitis in
+      omnis cum nulla beatae quos ut, adipisci consequatur dolores, libero nisi
+      quibusdam reprehenderit exercitationem rerum porro, tempora molestiae
+      odit? Nobis neque laboriosam, ad minima, tempore enim ab, expedita
+      doloremque dignissimos cum sit harum nemo labore quo quam reiciendis.
+    </div>
+    <div class="box">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, nesciunt?
+    </div>
+  </body>
+</html>
