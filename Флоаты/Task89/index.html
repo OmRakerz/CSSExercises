@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сочетание float и margin</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <h1>Сочетание float и margin</h1>
+
+    <h3>
+      Сейчас наш текст прижат к картинке с левой стороны. Давайте попробуем
+      немного отодвинуть этот текст. Для этого зададим нашим абзацам левый
+      <i>margin</i> в 40px, а диву-родителю - красную границу.
+    </h3>
+
+    <h3>
+      Неожиданно вправо отступит только тот текст, который прилегает в
+      диву-родителю, а текст, прилегающий к картинке - не отодвинется:
+    </h3>
+
+    <!-- Пример №1 -->
+    <div class="box">
+      <img class="img" src="../images/task87.2.jpg" alt="img1" height="200px" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, corrupti
+        magnam quis perferendis beatae et?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi est
+        adipisci natus repellat hic praesentium ut dolorum accusamus, blanditiis
+        omnis corporis laborum enim eaque totam expedita aut, officia quasi
+        rerum accusantium numquam placeat facere ad aliquid. Ut aspernatur
+        temporibus doloribus adipisci autem odit libero ab commodi fugiat, illum
+        illo iure!
+      </p>
+    </div>
+
+    <h3>
+      Как мы видим, на самом деле абзацы отодвигаются от левого края, но не от
+      картинки, а от дива-родителя.
+    </h3>
+    <h3>
+      Вот теперь точно видно, что реакция на margin-left есть, только абзацы на
+      самом деле размещены под картинкой.
+    </h3>
+
+    <br />
+    <br />
+
+    <h3>
+      Вот так на самом деле выглядят наши абзацы - их текст отодвинут картинкой,
+      но физически абзацы лежат под картинкой, это видно по границе, которая
+      начинается от левого края дива-родителя.
+    </h3>
+
+    <h3>Теперь картинка двигается вместе с абзацами!</h3>
+    <!-- Пример №2 -->
+    <div class="box">
+      <p>
+        <img
+          class="img"
+          src="../images/task87.2.jpg"
+          alt="img1"
+          height="200px"
+        />
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, corrupti
+        magnam quis perferendis beatae et?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi est
+        adipisci natus repellat hic praesentium ut dolorum accusamus, blanditiis
+        omnis corporis laborum enim eaque totam expedita aut, officia quasi
+        rerum accusantium numquam placeat facere ad aliquid. Ut aspernatur
+        temporibus doloribus adipisci autem odit libero ab commodi fugiat, illum
+        illo iure!
+      </p>
+    </div>
+  </body>
+</html>
