@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Отмена обтекания с помощью свойства clear</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <h1>Отмена обтекания с помощью свойства clear</h1>
+
+    <h3>
+      Пусть сейчас у нас есть два дива с классом parent. В каждом из них есть
+      небольшой текст, а в первом диве размещена картинка, которой задано
+      свойство float в значении left.
+    </h3>
+
+    <h3>Как мы уже знаете, в этом случае картинка налезет на второй блок:</h3>
+    <!-- Пример №1 -->
+    <div class="parent">
+      <img src="../images/task87.2.jpg" alt="" height="200px" />
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum nobis
+      excepturi, velit quos nam numquam!
+    </div>
+    <div class="parent">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, nesciunt?
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br />
+
+    <h3>
+      Существует специальное свойство <i>clear</i>, которое отменяет обтекание.
+      Значение <i>left </i>отменяет обтекание слева, значение <i> right</i> -
+      справа, а значение <i>both</i> - с обоих сторон. Это значение и
+      используется чаще всего.
+    </h3>
+
+    <h3>
+      В нашем случае это позволит нам сделать так, чтобы плавающая картинка из
+      первого дива не налазила на второй див.
+    </h3>
+
+    <!-- Пример №2 -->
+    <div class="parent">
+      <img src="../images/task87.2.jpg" alt="" height="200px" />
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum nobis
+      excepturi, velit quos nam numquam!
+    </div>
+    <div class="parent clearfix">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, nesciunt?
+    </div>
+
+    <br />
+
+    <h1>Отдельный див с клиарфиксом</h1>
+
+    <h3>
+      На самом деле клиарфикс чаще всего используют в виде отдельного дива,
+      который ставится перед тем дивом, для которого вы хотите отменить
+      налезание, вот так:
+    </h3>
+
+    <!-- Пример №3 -->
+    <div class="parent">
+      <img src="../images/task87.2.jpg" alt="" height="200px" />
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum nobis
+      excepturi, velit quos nam numquam!
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="parent">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, nesciunt?
+    </div>
+  </body>
+</html>
