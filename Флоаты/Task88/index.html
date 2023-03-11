@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Проникновение плавающих элементов через теги</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <!-- Задание №1 -->
+    <h1>Задание №1</h1>
+    <h2>Проникновение плавающих элементов через теги</h2>
+    <p>
+      Пусть теперь у нас текст размещен в абзацах, а картинка, которой задано
+      свойство float находится над этими абзацами. В этом случае все будет
+      работать, как и работало - наличие других тегов не мешает обтеканию:
+    </p>
+
+    <!-- Пример №1 -->
+    <div class="box">
+      <img class="img" src="../images/task87.1.jpg" alt="img1" height="200px" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis numquam
+        facilis eos, rem hic inventore vero doloremque itaque ipsum totam! Totam
+        velit in repellendus omnis laudantium voluptates repellat commodi
+        nesciunt animi voluptatibus eligendi tenetur dolor iste possimus rerum
+        cum quae tempore unde, ab voluptas dolorum. Esse, fuga! Beatae, sequi?
+        Nam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi est
+        adipisci natus repellat hic praesentium ut dolorum accusamus, blanditiis
+        omnis corporis laborum enim eaque totam expedita aut, officia quasi
+        rerum accusantium numquam placeat facere ad aliquid. Ut aspernatur
+        temporibus doloribus adipisci autem odit libero ab commodi fugiat, illum
+        illo iure!
+      </p>
+    </div>
+
+    <br />
+    <br />
+
+    <!-- Пример №2 -->
+    <p>
+      Пусть теперь в первом абзаце мало текста - в этом случае картинка будет
+      залазить и на второй абзац:
+    </p>
+    <div class="box">
+      <img class="img" src="../images/task87.2.jpg" alt="img1" height="200px" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut mollitia
+        iste, obcaecati amet quia tenetur?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi est
+        adipisci natus repellat hic praesentium ut dolorum accusamus, blanditiis
+        omnis corporis laborum enim eaque totam expedita aut, officia quasi
+        rerum accusantium numquam placeat facere ad aliquid. Ut aspernatur
+        temporibus doloribus adipisci autem odit libero ab commodi fugiat, illum
+        illo iure!
+      </p>
+    </div>
+  </body>
+</html>

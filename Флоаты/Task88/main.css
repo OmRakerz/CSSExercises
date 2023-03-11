@@ -1,0 +1,49 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+  margin: 0 auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 20px;
+  width: 80%;
+  color: #4682b4;
+}
+p {
+  margin-left: 10px;
+  font-size: 20px;
+  width: 90%;
+  color: white;
+}
+/* ---------------- */
+a {
+  font-size: 25px;
+  color: #f0fff0;
+}
+
+.box {
+  width: 800px;
+  border: 4px solid #a9a9a9;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img {
+  float: left;
+}
+/* Задание №1 */
