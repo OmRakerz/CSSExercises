@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Плавающие элементы под тегами</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <h1>Плавающие элементы под тегами</h1>
+
+    <!-- Пример №1 -->
+    <h3>
+      Пусть сейчас у нас есть два абзаца и картинка, размещенная в первом
+      абзаце. Пусть этой картинке у нас задано свойство <i>float</i> в значении
+      <i>right</i>, а также полупрозрачность:
+    </h3>
+
+    <div class="box">
+      <p class="eg">
+        <img src="../images/task87.2.jpg" alt="" height="150px" />
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+        explicabo quia vel, ipsam libero quae.
+      </p>
+      <p class="eg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In, commodi
+        ipsam quae doloribus praesentium porro mollitia? Ipsa qui rem quidem aut
+        reiciendis numquam minima sint dolore nam repellat temporibus, veniam
+        dolores labore id consequatur sunt ab? Doloremque, optio voluptate odit
+        illum quibusdam inventore minus temporibus, perspiciatis dolorum eaque
+        mollitia, voluptatem hic vitae itaque officiis facere asperiores tenetur
+        quia error culpa.
+      </p>
+    </div>
+
+    <br />
+    <br />
+
+    <h3>
+      А теперь давайте поставим в HTML коде картинку после первого абзаца и
+      посмотрим, что будет:
+    </h3>
+
+    <!-- Пример №2 -->
+    <div class="box">
+      <p class="eg">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+        explicabo quia vel, ipsam libero quae.
+      </p>
+
+      <img src="../images/task87.2.jpg" alt="" height="150px" />
+
+      <p class="eg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In, commodi
+        ipsam quae doloribus praesentium porro mollitia? Ipsa qui rem quidem aut
+        reiciendis numquam minima sint dolore nam repellat temporibus, veniam
+        dolores labore id consequatur sunt ab? Doloremque, optio voluptate odit
+        illum quibusdam inventore minus temporibus, perspiciatis dolorum eaque
+        mollitia, voluptatem hic vitae itaque officiis facere asperiores tenetur
+        quia error culpa.
+      </p>
+    </div>
+    <h3>
+      Как мы видим, картинку обтекает текст второго абзаца, но не первого.
+    </h3>
+
+    <br />
+    <br />
+
+    <h3>
+      Давайте вообще переставим нашу картинку после второго абзаца. В этом
+      случае она будет плавать справа, но никакого обтекания не будет:
+    </h3>
+
+    <!-- Пример №3 -->
+    <div class="box">
+      <p class="eg">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+        explicabo quia vel, ipsam libero quae.
+      </p>
+
+      <p class="eg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In, commodi
+        ipsam quae doloribus praesentium porro mollitia? Ipsa qui rem quidem aut
+        reiciendis numquam minima sint dolore nam repellat temporibus, veniam
+        dolores labore id consequatur sunt ab? Doloremque, optio voluptate odit
+        illum quibusdam inventore minus temporibus, perspiciatis dolorum eaque
+        mollitia, voluptatem hic vitae itaque officiis facere asperiores tenetur
+        quia error culpa.
+      </p>
+
+      <img src="../images/task87.2.jpg" alt="" height="150px" />
+    </div>
+
+    <h3>
+      <u
+        >Получается, что обтекать картинку будут только те элементы, которые
+        находятся под ней, но не те, которые находятся над ней.</u
+      >
+    </h3>
+  </body>
+</html>
