@@ -1,0 +1,166 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+  margin: 0 auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 50px;
+
+  color: #f0ffff;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-left: 40px;
+  width: 80%;
+  color: #4682b4;
+}
+
+h3 {
+  font-size: 25px;
+  width: 90%;
+  margin: 20px;
+  color: white;
+}
+
+p {
+  margin-left: 10px;
+  font-size: 20px;
+
+  color: white;
+}
+/* ---------------- */
+a {
+  font-size: 25px;
+  color: #f0fff0;
+}
+
+/* Задание №1 */
+.parent1 {
+  display: flex;
+  flex-direction: row; /* главная ось направо, поперечная вниз */
+  justify-content: center; /* блоки к центру главной оси */
+  align-items: center; /* центрируем по побочной оси */
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.child1 {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+
+  color: white;
+  font-size: 20px;
+}
+
+/* Задание №2 */
+.parent2 {
+  display: flex;
+  flex-direction: row-reverse; /* главная ось справа налево */
+  justify-content: center; /* блоки к центру главной оси */
+  align-items: center; /* центрируем по побочной оси */
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.child2 {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+
+  color: white;
+  font-size: 20px;
+}
+
+/* Задание №3 */
+.parent3 {
+  display: flex;
+  flex-direction: row; /* главная ось направо, поперечная вниз */
+  justify-content: flex-end; /* блоки к концу главной оси (вправо) */
+  align-items: center; /* центрируем по побочной оси */
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.child3 {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+
+  color: white;
+  font-size: 20px;
+}
+
+/* Задание №4 */
+.parent4 {
+  display: flex;
+  flex-direction: row; /* главная ось направо, поперечная вниз */
+  justify-content: space-between; /* Равномерно распределяет все элементы по ширине flex-блока */
+  align-items: center; /* центрируем по побочной оси */
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.child4 {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+
+  color: white;
+  font-size: 20px;
+}
+
+/* Задание №5 */
+.parent5 {
+  display: flex;
+  flex-direction: column; /* главная ось вниз, поперечная влево */
+  justify-content: center; /* блоки к центру главной оси */
+  align-items: center; /* центрируем по побочной оси */
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.child5 {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+
+  color: white;
+  font-size: 20px;
+}
+
+/* Задание №6 */
+.parent6 {
+  display: flex;
+  flex-direction: column-reverse; /* главная ось вверх, поперечная вправо */
+  justify-content: center; /* блоки к центру главной оси */
+  align-items: center; /* центрируем по побочной оси */
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.child6 {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+
+  color: white;
+  font-size: 20px;
+}
