@@ -1,0 +1,112 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+  margin: 0 auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 50px;
+
+  color: #f0ffff;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-left: 40px;
+  width: 80%;
+  color: #4682b4;
+}
+
+h3 {
+  font-size: 25px;
+  width: 90%;
+  margin: 20px;
+  color: white;
+}
+
+p {
+  margin-left: 10px;
+  font-size: 20px;
+
+  color: white;
+}
+/* ---------------- */
+a {
+  font-size: 25px;
+  color: #f0fff0;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+}
+
+/* Задание №1 */
+.parent1 {
+  display: flex;
+  flex-direction: row; /* главная ось направо, поперечная вниз */
+  justify-content: center; /* блоки к центру главной оси */
+  align-items: center; /* блоки к центру поперечной оси */
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.child1 {
+  width: 100px;
+  height: 60px;
+  border: 1px solid green;
+}
+
+.elem1 {
+  align-self: flex-end; /* Элемент выравнивается в конце поперечной оси */
+}
+
+/* Задание №2 */
+.parent2 {
+  display: flex;
+  flex-direction: row; /* главная ось направо, поперечная вниз */
+  justify-content: center; /* блоки к центру главной оси */
+  align-items: stretch; /* растягивает элементы на всю ширину вдоль поперечной оси, т.к. поперечная ось направлена вниз и не задана высота элементов */
+
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.child2 {
+  width: 100px;
+  border: 1px solid green;
+}
+.elem2 {
+  align-self: center; /* Элемент выравнивается по центральной линии на поперечной */
+}
+
+/* Задание №3 */
+.parent3 {
+  display: flex;
+  flex-direction: column; /* главная ось сверху вниз, поперечная вправо */
+  justify-content: center; /* блоки к центру главной оси */
+  align-items: flex-start; /* блоки к началу поперечной оси (влево) */
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.child3 {
+  width: 100px;
+  height: 60px;
+  border: 1px solid green;
+}
+.elem3 {
+  align-self: center; /* Элемент выравнивается по центральной линии на поперечной */
+}
