@@ -1,0 +1,76 @@
+/* Стиль упражнений */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+  margin: 0 auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 50px;
+
+  color: #f0ffff;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-left: 40px;
+  width: 80%;
+  color: #4682b4;
+}
+
+h3 {
+  font-size: 25px;
+  width: 90%;
+  margin: 20px;
+  color: white;
+}
+
+p {
+  margin-left: 10px;
+  font-size: 20px;
+
+  color: white;
+}
+/* ---------------- */
+a {
+  font-size: 25px;
+  color: #f0fff0;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+}
+
+/* Задание №1 */
+.parent {
+  display: flex;
+  flex-direction: row; /* главная ось направо, поперечная вниз */
+  justify-content: center; /* блоки к центру главной оси */
+  align-items: center; /* блоки к центру поперечной оси */
+  margin: 20px auto;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
+.child {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
+
+/* По умолчанию все элементы следуют друг за другом, это значит, что order у них нулевой. */
+.elem {
+  order: -2; /* чем больше значение, тем ближе стоит элемент к концу оси, 
+    а у кого он меньше - тот стоит ближе к началу. */
+
+  border: 1px solid red;
+}
